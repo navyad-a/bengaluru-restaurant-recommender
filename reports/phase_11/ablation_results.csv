@@ -1,0 +1,6 @@
+configuration,precision@10,recall@10,ndcg@10
+1. Content Only,0.0,0.0,0.0
+2. Content + Quality,0.0,0.0,0.0
+3. Content + Location + Quality,0.0,0.0,0.0
+4. Content + SVD,0.0,0.0,0.0
+5. Full Hybrid (Production),0.0,0.0,0.0

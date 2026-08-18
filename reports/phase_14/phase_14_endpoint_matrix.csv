@@ -1,0 +1,13 @@
+method,endpoint,primary_function,status_codes_tested,boundary_validation_tested,error_handling_tested,determinism_tested
+GET,/health,Liveness Probe,"200",Yes,Yes,Yes
+GET,/ready,Readiness Probe,"200",Yes,Yes,Yes
+GET,/api/v1/system/status,System Telemetry,"200",Yes,Yes,Yes
+POST,/api/v1/system/cache/clear,Purge Cache,"200",Yes,Yes,Yes
+GET,/api/v1/recommendations/similar/{restaurant_id},Content Similarity,"200, 404, 422",Yes,Yes,Yes
+POST,/api/v1/recommendations/content,Preference Content Scoring,"200, 422",Yes,Yes,Yes
+GET,/api/v1/recommendations/collaborative/{user_id},SVD Collaborative,"200, 404, 422",Yes,Yes,Yes
+GET,/api/v1/recommendations/nearby,Spatial Radius Search,"200, 422",Yes,Yes,Yes
+GET,/api/v1/recommendations/hybrid/{user_id},Hybrid GET Recommender,"200, 422",Yes,Yes,Yes
+POST,/api/v1/recommendations/hybrid,Hybrid POST Recommender,"200, 422",Yes,Yes,Yes
+GET,/api/v1/recommendations/popular,Bayesian Popularity,"200, 422",Yes,Yes,Yes
+POST,/api/v1/recommendations/onboarding,Cold-Start Onboarding,"200, 422",Yes,Yes,Yes

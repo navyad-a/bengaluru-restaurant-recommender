@@ -1,0 +1,4 @@
+failure_id,test_name,subsystem,failure_type,root_cause,fix_applied,verified
+1,test_e2e_system_endpoints,API System,Test Expectation,Tested catalog.total_restaurants instead of models.content_recommender.catalog_size,Updated assertion to match FastAPI system status contract,Yes
+2,test_rate_limiter_middleware_sliding_window,Middleware,Test Construction,Passed unexpected kwargs to RateLimitMiddleware init,Initialized cleanly and patched RATE_LIMIT_ENABLED,Yes
+3,test_cache_ttl_expiration,Cache,Test Expectation,Asserted evictions instead of expirations on TTL timeout,Updated test assertion to check stats.expirations,Yes

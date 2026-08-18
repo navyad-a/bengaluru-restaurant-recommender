@@ -1,0 +1,19 @@
+test_module,test_category,test_count,passed,failed,skipped
+test_database.py,Database & ORM,7,7,0,0
+test_content_recommender.py,Content Recommender,14,14,0,0
+test_collaborative_recommender.py,Collaborative SVD,12,12,0,0
+test_hybrid_recommender.py,Hybrid Recommender,26,26,0,0
+test_spatial.py,Spatial BallTree Search,24,24,0,0
+test_cold_start.py,Cold-Start & Onboarding,15,15,0,0
+test_diversification.py,MMR & Explainability,16,16,0,0
+test_phase_11_evaluation.py,Offline Evaluation & Leakage,9,9,0,0
+test_phase_12_async_api.py,Async API & Telemetry,9,9,0,0
+test_phase_13_streamlit.py,Streamlit API Client & State,13,13,0,0
+test_phase_14_api_e2e.py,API E2E Matrix,10,10,0,0
+test_phase_14_backend_unit.py,Backend Unit & Lifespan,7,7,0,0
+test_phase_14_cache_concurrency.py,Cache & Concurrency,6,6,0,0
+test_phase_14_ml_pipeline_e2e.py,ML Pipeline & Catalog Integrity,5,5,0,0
+test_phase_14_performance_regression.py,Performance Regression,3,3,0,0
+test_phase_14_security_robustness.py,Security & Robustness,5,5,0,0
+test_phase_14_streamlit_components.py,Streamlit Component Rendering,8,8,0,0
+TOTAL,All Subsystems,189,189,0,0

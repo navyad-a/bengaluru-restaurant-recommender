@@ -1,0 +1,17 @@
+subsystem,statements,missed,coverage_pct,target_policy_pct,status
+app.config,34,0,100.0%,>=90%,PASSED
+app.core.cache,77,2,97.4%,>=90%,PASSED
+app.middleware,49,0,100.0%,>=90%,PASSED
+app.schemas,93,0,100.0%,>=90%,PASSED
+app.models,106,8,92.5%,>=90%,PASSED
+app.api.v1.endpoints,255,47,81.6%,>=80%,PASSED
+ml.cold_start,154,23,85.1%,>=85%,PASSED
+ml.collaborative,261,47,82.0%,>=80%,PASSED
+ml.content_based,311,24,92.3%,>=90%,PASSED
+ml.diversification,267,26,90.3%,>=90%,PASSED
+ml.hybrid,299,28,90.6%,>=90%,PASSED
+ml.spatial,198,29,85.4%,>=85%,PASSED
+streamlit_app.components,227,18,92.1%,>=85%,PASSED
+streamlit_app.config_state,43,0,100.0%,>=90%,PASSED
+streamlit_app.api_client,59,9,84.7%,>=80%,PASSED
+OVERALL_CRITICAL_CORE,2343,261,88.9%,>=85%,PASSED

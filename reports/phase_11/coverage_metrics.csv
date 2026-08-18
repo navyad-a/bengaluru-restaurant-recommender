@@ -1,0 +1,6 @@
+model,catalog_coverage@5,catalog_coverage@10,catalog_coverage@20,user_coverage@5,user_coverage@10,user_coverage@20
+Popularity,0.0005,0.0009,0.0017,1.0,1.0,1.0
+Content-Based,0.0029,0.0057,0.011,1.0,1.0,1.0
+SVD (Collaborative),0.0047,0.009,0.0181,1.0,1.0,1.0
+Hybrid,0.0044,0.0076,0.0137,1.0,1.0,1.0
+Hybrid + MMR (λ=0.75),0.0067,0.0118,0.0201,1.0,1.0,1.0

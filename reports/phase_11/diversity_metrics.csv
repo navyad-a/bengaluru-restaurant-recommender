@@ -1,0 +1,6 @@
+model,intra_list_diversity@10,redundancy_rate@10,unique_cuisine_ratio@10
+Popularity,0.76,0.0,1.6983
+Content-Based,0.3219,0.2185,0.4433
+SVD (Collaborative),0.8985,0.0,1.5767
+Hybrid,0.3822,0.1174,0.4667
+Hybrid + MMR (λ=0.75),0.573,0.0,0.7783

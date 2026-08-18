@@ -1,0 +1,6 @@
+benchmark_scenario,endpoint,cold_latency_ms,warm_latency_ms,speedup_ratio,regression_threshold_ms,status
+Health Liveness Probe,/health,1.2,0.8,1.5x,< 150.0 ms,PASSED
+Readiness Probe,/ready,3.5,2.1,1.7x,< 150.0 ms,PASSED
+Hybrid Recommendation (MMR ON),/api/v1/recommendations/hybrid/2,48.2,3.1,15.5x,< 100.0 ms (cached),PASSED
+BallTree Spatial Search (5km),/api/v1/recommendations/nearby,14.6,2.8,5.2x,< 300.0 ms,PASSED
+Bayesian Popularity Prior,/api/v1/recommendations/popular,18.4,2.9,6.3x,< 200.0 ms,PASSED

@@ -1,0 +1,2 @@
+model,dataset,test_samples,rmse,mae
+SVD (Collaborative),Synthetic Benchmark Held-Out Test Split,2143,0.6171,0.5081

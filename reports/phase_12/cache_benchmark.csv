@@ -1,0 +1,5 @@
+endpoint,cold_latency_ms,warm_latency_ms,speedup_factor
+Popular (/popular),11.4,3.28,3.5
+Nearby (/nearby),30.88,2.87,10.8
+Hybrid User (/hybrid/{id}),73.67,3.02,24.4
+Onboarding (/onboarding),46.05,3.36,13.7

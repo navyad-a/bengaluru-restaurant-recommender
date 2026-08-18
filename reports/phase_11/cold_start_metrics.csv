@@ -1,0 +1,3 @@
+segment,strategy,users_count,precision@10,recall@10,ndcg@10,mrr@10
+Warm Users (>=5 ratings),WARM_HYBRID,60,0.0,0.0,0.0,0.0
+Unknown Users (0 ratings),GLOBAL_POPULARITY,30,0.0,0.0,0.0,0.0
