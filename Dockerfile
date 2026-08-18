@@ -1,0 +1,44 @@
+# =============================================================================
+# Production Dockerfile for FastAPI Recommendation Service (Root)
+# Multi-stage, slim, non-root user, optimized for ML models & Gunicorn/Uvicorn
+# =============================================================================
+
+FROM python:3.11-slim AS base
+
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    PORT=8000
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    gcc \
+    g++ \
+    libpq-dev \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+COPY requirements.txt /app/requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+RUN useradd -m -u 1000 appuser && \
+    mkdir -p /app/saved_models /app/data /app/reports && \
+    chown -R appuser:appuser /app
+
+COPY --chown=appuser:appuser app /app/app
+COPY --chown=appuser:appuser ml /app/ml
+COPY --chown=appuser:appuser data /app/data
+COPY --chown=appuser:appuser saved_models /app/saved_models
+COPY --chown=appuser:appuser scripts /app/scripts
+
+USER appuser
+EXPOSE 8000
+
+HEALTHCHECK --interval=10s --timeout=5s --start-period=20s --retries=3 \
+    CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')" || exit 1
+
+CMD ["gunicorn", "app.main:app", "-w", "2", "-k", "uvicorn.workers.UvicornWorker", "-b", "0.0.0.0:8000", "--timeout", "60", "--access-logfile", "-"]
+
