@@ -1,0 +1,601 @@
+user_id,name,email,persona_id,persona_description,home_locality,preferred_budget_tier,max_budget_inr,preferred_cuisines,base_bias
+1,Divya Sharma,divya.sharma1@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,BTM,Budget,600,"Chinese, Momos, Asian",0.0
+2,Neha Iyer,neha.iyer2@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Marathahalli,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+3,Arjun Chopra,arjun.chopra3@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Banashankari,Budget,500,"South Indian, Karnataka, Udupi",0.2
+4,Aditi Patel,aditi.patel4@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Basavanagudi,Budget,500,"South Indian, Karnataka, Udupi",0.2
+5,Aditi Kumar,aditi.kumar5@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Shivajinagar,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+6,Suresh Hegde,suresh.hegde6@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kammanahalli,Budget,600,"Chinese, Momos, Asian",0.0
+7,Pranav Sharma,pranav.sharma7@example.in,north_indian_family_diner,North Indian Family Diner,Whitefield,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+8,Tanvi Bhat,tanvi.bhat8@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,BTM,Budget,600,"Chinese, Momos, Asian",0.0
+9,Meera Bhat,meera.bhat9@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Frazer Town,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+10,Shreya Reddy,shreya.reddy10@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Malleshwaram,Budget,500,"South Indian, Karnataka, Udupi",0.2
+11,Rohan Joshi,rohan.joshi11@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,MG Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+12,Amit Bose,amit.bose12@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Indiranagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+13,Divya Verma,divya.verma13@example.in,north_indian_family_diner,North Indian Family Diner,JP Nagar,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+14,Priya Prasad,priya.prasad14@example.in,north_indian_family_diner,North Indian Family Diner,HSR,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+15,Sanjay Chopra,sanjay.chopra15@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Residency Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+16,Aniruddh Rao,aniruddh.rao16@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Indiranagar,Budget,600,"Chinese, Momos, Asian",0.0
+17,Priya Patel,priya.patel17@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Residency Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+18,Deepak Verma,deepak.verma18@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,MG Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+19,Sanjay Nair,sanjay.nair19@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Church Street,Premium,1800,"Cafe, Continental, Italian",0.15
+20,Meera Das,meera.das20@example.in,budget_tech_student,Budget Techie / Student,Electronic City,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+21,Aniruddh Joshi,aniruddh.joshi21@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Indiranagar,Budget,600,"Chinese, Momos, Asian",0.0
+22,Naveen Nair,naveen.nair22@example.in,north_indian_family_diner,North Indian Family Diner,Bellandur,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+23,Pranav Prasad,pranav.prasad23@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,MG Road,Premium,1800,"Cafe, Continental, Italian",0.15
+24,Rakesh Rao,rakesh.rao24@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Shivajinagar,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+25,Amit Bhat,amit.bhat25@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Indiranagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+26,Aniruddh Kulkarni,aniruddh.kulkarni26@example.in,budget_tech_student,Budget Techie / Student,Marathahalli,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+27,Rakesh Kulkarni,rakesh.kulkarni27@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kammanahalli,Budget,600,"Chinese, Momos, Asian",0.0
+28,Vikas Iyer,vikas.iyer28@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Church Street,Premium,1800,"Cafe, Continental, Italian",0.15
+29,Naveen Bose,naveen.bose29@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,HSR,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+30,Pooja Bose,pooja.bose30@example.in,north_indian_family_diner,North Indian Family Diner,HSR,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+31,Sneha Deshmukh,sneha.deshmukh31@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Indiranagar,Premium,1800,"Cafe, Continental, Italian",0.15
+32,Yash Patel,yash.patel32@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Frazer Town,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+33,Divya Iyer,divya.iyer33@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Residency Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+34,Tanvi Joshi,tanvi.joshi34@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Lavelle Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+35,Shreya Joshi,shreya.joshi35@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Lavelle Road,Premium,1800,"Cafe, Continental, Italian",0.15
+36,Pooja Kumar,pooja.kumar36@example.in,north_indian_family_diner,North Indian Family Diner,JP Nagar,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+37,Divya Das,divya.das37@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kalyan Nagar,Budget,600,"Chinese, Momos, Asian",0.0
+38,Pranav Prasad,pranav.prasad38@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,MG Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+39,Priya Gupta,priya.gupta39@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Basavanagudi,Budget,500,"South Indian, Karnataka, Udupi",0.2
+40,Aarav Bose,aarav.bose40@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Church Street,Premium,1800,"Cafe, Continental, Italian",0.15
+41,Kavya Murthy,kavya.murthy41@example.in,north_indian_family_diner,North Indian Family Diner,JP Nagar,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+42,Rahul Prasad,rahul.prasad42@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Sadashiv Nagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+43,Manish Iyer,manish.iyer43@example.in,north_indian_family_diner,North Indian Family Diner,Bannerghatta Road,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+44,Ishaan Kumar,ishaan.kumar44@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Sadashiv Nagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+45,Rakesh Singh,rakesh.singh45@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Jayanagar,Budget,500,"South Indian, Karnataka, Udupi",0.2
+46,Sanjay Shetty,sanjay.shetty46@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Basavanagudi,Budget,500,"South Indian, Karnataka, Udupi",0.2
+47,Naveen Chopra,naveen.chopra47@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Jayanagar,Budget,500,"South Indian, Karnataka, Udupi",0.2
+48,Yash Patel,yash.patel48@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Rajajinagar,Budget,500,"South Indian, Karnataka, Udupi",0.2
+49,Gautam Iyer,gautam.iyer49@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Indiranagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+50,Ishaan Gowda,ishaan.gowda50@example.in,north_indian_family_diner,North Indian Family Diner,HSR,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+51,Tanvi Kulkarni,tanvi.kulkarni51@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Sadashiv Nagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+52,Manish Banerjee,manish.banerjee52@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,MG Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+53,Sanjay Menon,sanjay.menon53@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,MG Road,Premium,1800,"Cafe, Continental, Italian",0.15
+54,Divya Hegde,divya.hegde54@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Indiranagar,Premium,1800,"Cafe, Continental, Italian",0.15
+55,Riya Sharma,riya.sharma55@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Rajajinagar,Budget,500,"South Indian, Karnataka, Udupi",0.2
+56,Neha Chopra,neha.chopra56@example.in,north_indian_family_diner,North Indian Family Diner,Whitefield,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+57,Aniruddh Banerjee,aniruddh.banerjee57@example.in,south_indian_traditionalist,South Indian Tiffin Lover,BTM,Budget,500,"South Indian, Karnataka, Udupi",0.2
+58,Neha Patel,neha.patel58@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Jayanagar,Budget,500,"South Indian, Karnataka, Udupi",0.2
+59,Riya Patel,riya.patel59@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Sadashiv Nagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+60,Pranav Das,pranav.das60@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,BTM,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+61,Gautam Bose,gautam.bose61@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,HSR,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+62,Vikram Hegde,vikram.hegde62@example.in,north_indian_family_diner,North Indian Family Diner,Bellandur,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+63,Suresh Kulkarni,suresh.kulkarni63@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Lavelle Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+64,Tanvi Deshmukh,tanvi.deshmukh64@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Banashankari,Budget,500,"South Indian, Karnataka, Udupi",0.2
+65,Vikas Bose,vikas.bose65@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Koramangala 5th Block,Premium,1800,"Cafe, Continental, Italian",0.15
+66,Deepak Rao,deepak.rao66@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kammanahalli,Budget,600,"Chinese, Momos, Asian",0.0
+67,Riya Reddy,riya.reddy67@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Indiranagar,Budget,600,"Chinese, Momos, Asian",0.0
+68,Manish Kumar,manish.kumar68@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,BTM,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+69,Tanvi Nair,tanvi.nair69@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Koramangala 5th Block,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+70,Naveen Patel,naveen.patel70@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Lavelle Road,Premium,1800,"Cafe, Continental, Italian",0.15
+71,Deepak Rao,deepak.rao71@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Sadashiv Nagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+72,Aarav Patel,aarav.patel72@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Residency Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+73,Suresh Singh,suresh.singh73@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,BTM,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+74,Sneha Rao,sneha.rao74@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Shivajinagar,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+75,Aarav Verma,aarav.verma75@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Church Street,Premium,1800,"Cafe, Continental, Italian",0.15
+76,Vikas Shetty,vikas.shetty76@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Indiranagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+77,Yash Iyer,yash.iyer77@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Indiranagar,Budget,600,"Chinese, Momos, Asian",0.0
+78,Meera Rao,meera.rao78@example.in,budget_tech_student,Budget Techie / Student,Marathahalli,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+79,Ananya Bose,ananya.bose79@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,BTM,Budget,600,"Chinese, Momos, Asian",0.0
+80,Ananya Chopra,ananya.chopra80@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Banashankari,Budget,500,"South Indian, Karnataka, Udupi",0.2
+81,Ishaan Rao,ishaan.rao81@example.in,north_indian_family_diner,North Indian Family Diner,HSR,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+82,Kavya Patel,kavya.patel82@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Rajajinagar,Budget,500,"South Indian, Karnataka, Udupi",0.2
+83,Naveen Verma,naveen.verma83@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Jayanagar,Budget,500,"South Indian, Karnataka, Udupi",0.2
+84,Naveen Chopra,naveen.chopra84@example.in,north_indian_family_diner,North Indian Family Diner,HSR,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+85,Arjun Gupta,arjun.gupta85@example.in,south_indian_traditionalist,South Indian Tiffin Lover,BTM,Budget,500,"South Indian, Karnataka, Udupi",0.2
+86,Rakesh Gowda,rakesh.gowda86@example.in,north_indian_family_diner,North Indian Family Diner,Whitefield,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+87,Rakesh Hegde,rakesh.hegde87@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,BTM,Budget,600,"Chinese, Momos, Asian",0.0
+88,Gautam Das,gautam.das88@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Church Street,Premium,1800,"Cafe, Continental, Italian",0.15
+89,Rakesh Patel,rakesh.patel89@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Koramangala 5th Block,Premium,1800,"Cafe, Continental, Italian",0.15
+90,Deepak Patel,deepak.patel90@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,MG Road,Premium,1800,"Cafe, Continental, Italian",0.15
+91,Pooja Iyer,pooja.iyer91@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Koramangala 5th Block,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+92,Naveen Deshmukh,naveen.deshmukh92@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Malleshwaram,Budget,500,"South Indian, Karnataka, Udupi",0.2
+93,Varun Kumar,varun.kumar93@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Marathahalli,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+94,Aarav Das,aarav.das94@example.in,budget_tech_student,Budget Techie / Student,Marathahalli,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+95,Deepak Iyer,deepak.iyer95@example.in,budget_tech_student,Budget Techie / Student,Electronic City,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+96,Deepak Bose,deepak.bose96@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Rajajinagar,Budget,500,"South Indian, Karnataka, Udupi",0.2
+97,Pranav Shetty,pranav.shetty97@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,HSR,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+98,Riya Kulkarni,riya.kulkarni98@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Marathahalli,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+99,Pooja Murthy,pooja.murthy99@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kammanahalli,Budget,600,"Chinese, Momos, Asian",0.0
+100,Ananya Patel,ananya.patel100@example.in,budget_tech_student,Budget Techie / Student,Koramangala 1st Block,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+101,Pranav Rao,pranav.rao101@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Lavelle Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+102,Gautam Prasad,gautam.prasad102@example.in,budget_tech_student,Budget Techie / Student,Electronic City,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+103,Varun Kumar,varun.kumar103@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Marathahalli,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+104,Aarav Reddy,aarav.reddy104@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Koramangala 5th Block,Premium,1800,"Cafe, Continental, Italian",0.15
+105,Harish Kumar,harish.kumar105@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Koramangala 7th Block,Budget,600,"Chinese, Momos, Asian",0.0
+106,Sanjay Chopra,sanjay.chopra106@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Sadashiv Nagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+107,Tanvi Iyer,tanvi.iyer107@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Frazer Town,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+108,Sanjay Rao,sanjay.rao108@example.in,budget_tech_student,Budget Techie / Student,Electronic City,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+109,Naveen Das,naveen.das109@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Frazer Town,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+110,Suresh Joshi,suresh.joshi110@example.in,budget_tech_student,Budget Techie / Student,HSR,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+111,Ishaan Nair,ishaan.nair111@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,BTM,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+112,Kavya Bose,kavya.bose112@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Malleshwaram,Budget,500,"South Indian, Karnataka, Udupi",0.2
+113,Suresh Das,suresh.das113@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Residency Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+114,Ishaan Banerjee,ishaan.banerjee114@example.in,budget_tech_student,Budget Techie / Student,BTM,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+115,Amit Singh,amit.singh115@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Indiranagar,Premium,1800,"Cafe, Continental, Italian",0.15
+116,Vikas Deshmukh,vikas.deshmukh116@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Koramangala 5th Block,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+117,Neha Hegde,neha.hegde117@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Lavelle Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+118,Manish Verma,manish.verma118@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,BTM,Budget,600,"Chinese, Momos, Asian",0.0
+119,Aniruddh Gowda,aniruddh.gowda119@example.in,budget_tech_student,Budget Techie / Student,Electronic City,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+120,Sneha Das,sneha.das120@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kalyan Nagar,Budget,600,"Chinese, Momos, Asian",0.0
+121,Aditi Reddy,aditi.reddy121@example.in,budget_tech_student,Budget Techie / Student,Electronic City,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+122,Pooja Rao,pooja.rao122@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Frazer Town,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+123,Tanvi Deshmukh,tanvi.deshmukh123@example.in,north_indian_family_diner,North Indian Family Diner,Bannerghatta Road,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+124,Divya Verma,divya.verma124@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,MG Road,Premium,1800,"Cafe, Continental, Italian",0.15
+125,Pooja Rao,pooja.rao125@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Marathahalli,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+126,Aarav Murthy,aarav.murthy126@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,MG Road,Premium,1800,"Cafe, Continental, Italian",0.15
+127,Manish Deshmukh,manish.deshmukh127@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kammanahalli,Budget,600,"Chinese, Momos, Asian",0.0
+128,Riya Joshi,riya.joshi128@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Malleshwaram,Budget,500,"South Indian, Karnataka, Udupi",0.2
+129,Divya Bose,divya.bose129@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,BTM,Budget,600,"Chinese, Momos, Asian",0.0
+130,Rahul Das,rahul.das130@example.in,north_indian_family_diner,North Indian Family Diner,Bellandur,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+131,Sneha Banerjee,sneha.banerjee131@example.in,budget_tech_student,Budget Techie / Student,Electronic City,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+132,Gautam Kulkarni,gautam.kulkarni132@example.in,north_indian_family_diner,North Indian Family Diner,Bellandur,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+133,Shreya Das,shreya.das133@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Indiranagar,Budget,600,"Chinese, Momos, Asian",0.0
+134,Rahul Verma,rahul.verma134@example.in,north_indian_family_diner,North Indian Family Diner,HSR,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+135,Aarav Shetty,aarav.shetty135@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,MG Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+136,Tanvi Chopra,tanvi.chopra136@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,HSR,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+137,Rakesh Menon,rakesh.menon137@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kammanahalli,Budget,600,"Chinese, Momos, Asian",0.0
+138,Meera Murthy,meera.murthy138@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Lavelle Road,Premium,1800,"Cafe, Continental, Italian",0.15
+139,Ishaan Das,ishaan.das139@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Lavelle Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+140,Riya Patel,riya.patel140@example.in,budget_tech_student,Budget Techie / Student,HSR,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+141,Rahul Hegde,rahul.hegde141@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Indiranagar,Budget,600,"Chinese, Momos, Asian",0.0
+142,Aditi Rao,aditi.rao142@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Shivajinagar,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+143,Aniruddh Menon,aniruddh.menon143@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Lavelle Road,Premium,1800,"Cafe, Continental, Italian",0.15
+144,Manish Banerjee,manish.banerjee144@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kammanahalli,Budget,600,"Chinese, Momos, Asian",0.0
+145,Sneha Hegde,sneha.hegde145@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Indiranagar,Premium,1800,"Cafe, Continental, Italian",0.15
+146,Aarav Reddy,aarav.reddy146@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kammanahalli,Budget,600,"Chinese, Momos, Asian",0.0
+147,Kavya Banerjee,kavya.banerjee147@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,HSR,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+148,Ananya Kumar,ananya.kumar148@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Indiranagar,Premium,1800,"Cafe, Continental, Italian",0.15
+149,Divya Menon,divya.menon149@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Residency Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+150,Vikas Das,vikas.das150@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Sadashiv Nagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+151,Rakesh Menon,rakesh.menon151@example.in,north_indian_family_diner,North Indian Family Diner,HSR,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+152,Tanvi Kumar,tanvi.kumar152@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Indiranagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+153,Vikram Menon,vikram.menon153@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Koramangala 5th Block,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+154,Naveen Prasad,naveen.prasad154@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,MG Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+155,Yash Prasad,yash.prasad155@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Residency Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+156,Varun Patel,varun.patel156@example.in,budget_tech_student,Budget Techie / Student,Electronic City,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+157,Pranav Bhat,pranav.bhat157@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Koramangala 5th Block,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+158,Arjun Iyer,arjun.iyer158@example.in,north_indian_family_diner,North Indian Family Diner,Whitefield,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+159,Shreya Banerjee,shreya.banerjee159@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Shivajinagar,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+160,Meera Patel,meera.patel160@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kammanahalli,Budget,600,"Chinese, Momos, Asian",0.0
+161,Riya Kumar,riya.kumar161@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Lavelle Road,Premium,1800,"Cafe, Continental, Italian",0.15
+162,Ananya Kulkarni,ananya.kulkarni162@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Lavelle Road,Premium,1800,"Cafe, Continental, Italian",0.15
+163,Aditi Chopra,aditi.chopra163@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Lavelle Road,Premium,1800,"Cafe, Continental, Italian",0.15
+164,Aarav Deshmukh,aarav.deshmukh164@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Church Street,Premium,1800,"Cafe, Continental, Italian",0.15
+165,Shreya Gupta,shreya.gupta165@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Sadashiv Nagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+166,Neha Singh,neha.singh166@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Indiranagar,Budget,600,"Chinese, Momos, Asian",0.0
+167,Tanvi Singh,tanvi.singh167@example.in,budget_tech_student,Budget Techie / Student,BTM,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+168,Riya Das,riya.das168@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Lavelle Road,Premium,1800,"Cafe, Continental, Italian",0.15
+169,Ishaan Menon,ishaan.menon169@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Indiranagar,Budget,600,"Chinese, Momos, Asian",0.0
+170,Aditi Verma,aditi.verma170@example.in,north_indian_family_diner,North Indian Family Diner,HSR,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+171,Aditi Patel,aditi.patel171@example.in,north_indian_family_diner,North Indian Family Diner,Bellandur,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+172,Vikas Nair,vikas.nair172@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Frazer Town,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+173,Shreya Bhat,shreya.bhat173@example.in,budget_tech_student,Budget Techie / Student,HSR,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+174,Rakesh Bhat,rakesh.bhat174@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Lavelle Road,Premium,1800,"Cafe, Continental, Italian",0.15
+175,Suresh Gowda,suresh.gowda175@example.in,budget_tech_student,Budget Techie / Student,BTM,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+176,Aditi Bose,aditi.bose176@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,MG Road,Premium,1800,"Cafe, Continental, Italian",0.15
+177,Rohan Hegde,rohan.hegde177@example.in,south_indian_traditionalist,South Indian Tiffin Lover,BTM,Budget,500,"South Indian, Karnataka, Udupi",0.2
+178,Amit Sharma,amit.sharma178@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Basavanagudi,Budget,500,"South Indian, Karnataka, Udupi",0.2
+179,Aditi Joshi,aditi.joshi179@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Shivajinagar,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+180,Gautam Singh,gautam.singh180@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Marathahalli,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+181,Meera Menon,meera.menon181@example.in,south_indian_traditionalist,South Indian Tiffin Lover,BTM,Budget,500,"South Indian, Karnataka, Udupi",0.2
+182,Sanjay Nair,sanjay.nair182@example.in,budget_tech_student,Budget Techie / Student,Marathahalli,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+183,Divya Nair,divya.nair183@example.in,north_indian_family_diner,North Indian Family Diner,Bannerghatta Road,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+184,Aditi Shetty,aditi.shetty184@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Rajajinagar,Budget,500,"South Indian, Karnataka, Udupi",0.2
+185,Shreya Verma,shreya.verma185@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Indiranagar,Budget,600,"Chinese, Momos, Asian",0.0
+186,Naveen Reddy,naveen.reddy186@example.in,south_indian_traditionalist,South Indian Tiffin Lover,BTM,Budget,500,"South Indian, Karnataka, Udupi",0.2
+187,Rahul Das,rahul.das187@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Sadashiv Nagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+188,Divya Chopra,divya.chopra188@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Lavelle Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+189,Tanvi Das,tanvi.das189@example.in,budget_tech_student,Budget Techie / Student,Electronic City,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+190,Riya Sharma,riya.sharma190@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Banashankari,Budget,500,"South Indian, Karnataka, Udupi",0.2
+191,Yash Reddy,yash.reddy191@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Indiranagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+192,Vikas Banerjee,vikas.banerjee192@example.in,budget_tech_student,Budget Techie / Student,HSR,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+193,Kavya Bose,kavya.bose193@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,MG Road,Premium,1800,"Cafe, Continental, Italian",0.15
+194,Pranav Joshi,pranav.joshi194@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kalyan Nagar,Budget,600,"Chinese, Momos, Asian",0.0
+195,Vikram Menon,vikram.menon195@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Indiranagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+196,Pranav Bhat,pranav.bhat196@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Residency Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+197,Arjun Gowda,arjun.gowda197@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Indiranagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+198,Vikas Chopra,vikas.chopra198@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,HSR,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+199,Shreya Bhat,shreya.bhat199@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Koramangala 7th Block,Budget,600,"Chinese, Momos, Asian",0.0
+200,Rakesh Nair,rakesh.nair200@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Lavelle Road,Premium,1800,"Cafe, Continental, Italian",0.15
+201,Rohan Gowda,rohan.gowda201@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Koramangala 5th Block,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+202,Pranav Kumar,pranav.kumar202@example.in,budget_tech_student,Budget Techie / Student,BTM,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+203,Manish Patel,manish.patel203@example.in,north_indian_family_diner,North Indian Family Diner,Whitefield,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+204,Suresh Singh,suresh.singh204@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kalyan Nagar,Budget,600,"Chinese, Momos, Asian",0.0
+205,Naveen Banerjee,naveen.banerjee205@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Indiranagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+206,Yash Menon,yash.menon206@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Koramangala 7th Block,Budget,600,"Chinese, Momos, Asian",0.0
+207,Priya Hegde,priya.hegde207@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Banashankari,Budget,500,"South Indian, Karnataka, Udupi",0.2
+208,Naveen Shetty,naveen.shetty208@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kalyan Nagar,Budget,600,"Chinese, Momos, Asian",0.0
+209,Vikram Kumar,vikram.kumar209@example.in,budget_tech_student,Budget Techie / Student,Marathahalli,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+210,Tanvi Bose,tanvi.bose210@example.in,budget_tech_student,Budget Techie / Student,Marathahalli,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+211,Rohan Banerjee,rohan.banerjee211@example.in,budget_tech_student,Budget Techie / Student,Koramangala 1st Block,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+212,Rahul Gowda,rahul.gowda212@example.in,budget_tech_student,Budget Techie / Student,HSR,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+213,Manish Bhat,manish.bhat213@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Jayanagar,Budget,500,"South Indian, Karnataka, Udupi",0.2
+214,Kavya Kulkarni,kavya.kulkarni214@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Indiranagar,Budget,600,"Chinese, Momos, Asian",0.0
+215,Vikram Gowda,vikram.gowda215@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kalyan Nagar,Budget,600,"Chinese, Momos, Asian",0.0
+216,Priya Reddy,priya.reddy216@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Residency Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+217,Neha Deshmukh,neha.deshmukh217@example.in,budget_tech_student,Budget Techie / Student,HSR,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+218,Aarav Banerjee,aarav.banerjee218@example.in,budget_tech_student,Budget Techie / Student,Marathahalli,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+219,Pranav Rao,pranav.rao219@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Frazer Town,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+220,Priya Banerjee,priya.banerjee220@example.in,north_indian_family_diner,North Indian Family Diner,Whitefield,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+221,Yash Reddy,yash.reddy221@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Koramangala 7th Block,Budget,600,"Chinese, Momos, Asian",0.0
+222,Priya Singh,priya.singh222@example.in,north_indian_family_diner,North Indian Family Diner,Bellandur,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+223,Riya Nair,riya.nair223@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Koramangala 5th Block,Premium,1800,"Cafe, Continental, Italian",0.15
+224,Vikram Reddy,vikram.reddy224@example.in,budget_tech_student,Budget Techie / Student,BTM,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+225,Yash Patel,yash.patel225@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,MG Road,Premium,1800,"Cafe, Continental, Italian",0.15
+226,Ananya Iyer,ananya.iyer226@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Indiranagar,Budget,600,"Chinese, Momos, Asian",0.0
+227,Rahul Patel,rahul.patel227@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Residency Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+228,Suresh Joshi,suresh.joshi228@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Rajajinagar,Budget,500,"South Indian, Karnataka, Udupi",0.2
+229,Neha Murthy,neha.murthy229@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Indiranagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+230,Varun Shetty,varun.shetty230@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,MG Road,Premium,1800,"Cafe, Continental, Italian",0.15
+231,Rahul Chopra,rahul.chopra231@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,MG Road,Premium,1800,"Cafe, Continental, Italian",0.15
+232,Deepak Kulkarni,deepak.kulkarni232@example.in,south_indian_traditionalist,South Indian Tiffin Lover,BTM,Budget,500,"South Indian, Karnataka, Udupi",0.2
+233,Pooja Das,pooja.das233@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Frazer Town,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+234,Naveen Nair,naveen.nair234@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,HSR,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+235,Ishaan Sharma,ishaan.sharma235@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Banashankari,Budget,500,"South Indian, Karnataka, Udupi",0.2
+236,Vikram Shetty,vikram.shetty236@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Koramangala 5th Block,Premium,1800,"Cafe, Continental, Italian",0.15
+237,Priya Banerjee,priya.banerjee237@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Koramangala 5th Block,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+238,Vikas Patel,vikas.patel238@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Indiranagar,Budget,600,"Chinese, Momos, Asian",0.0
+239,Manish Gupta,manish.gupta239@example.in,budget_tech_student,Budget Techie / Student,BTM,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+240,Neha Prasad,neha.prasad240@example.in,north_indian_family_diner,North Indian Family Diner,Whitefield,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+241,Harish Patel,harish.patel241@example.in,budget_tech_student,Budget Techie / Student,BTM,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+242,Rahul Joshi,rahul.joshi242@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Marathahalli,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+243,Priya Menon,priya.menon243@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Lavelle Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+244,Rahul Banerjee,rahul.banerjee244@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Lavelle Road,Premium,1800,"Cafe, Continental, Italian",0.15
+245,Yash Menon,yash.menon245@example.in,budget_tech_student,Budget Techie / Student,BTM,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+246,Amit Gupta,amit.gupta246@example.in,north_indian_family_diner,North Indian Family Diner,Bannerghatta Road,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+247,Pooja Sharma,pooja.sharma247@example.in,north_indian_family_diner,North Indian Family Diner,JP Nagar,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+248,Aditi Das,aditi.das248@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Koramangala 5th Block,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+249,Amit Nair,amit.nair249@example.in,north_indian_family_diner,North Indian Family Diner,Bellandur,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+250,Varun Gowda,varun.gowda250@example.in,north_indian_family_diner,North Indian Family Diner,Whitefield,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+251,Tanvi Prasad,tanvi.prasad251@example.in,north_indian_family_diner,North Indian Family Diner,Bellandur,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+252,Vikram Deshmukh,vikram.deshmukh252@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Banashankari,Budget,500,"South Indian, Karnataka, Udupi",0.2
+253,Rakesh Das,rakesh.das253@example.in,budget_tech_student,Budget Techie / Student,BTM,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+254,Ishaan Bhat,ishaan.bhat254@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Indiranagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+255,Yash Shetty,yash.shetty255@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kammanahalli,Budget,600,"Chinese, Momos, Asian",0.0
+256,Amit Menon,amit.menon256@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Lavelle Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+257,Pooja Bhat,pooja.bhat257@example.in,budget_tech_student,Budget Techie / Student,BTM,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+258,Sneha Murthy,sneha.murthy258@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Lavelle Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+259,Vikas Gupta,vikas.gupta259@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Koramangala 7th Block,Budget,600,"Chinese, Momos, Asian",0.0
+260,Sanjay Joshi,sanjay.joshi260@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,BTM,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+261,Varun Rao,varun.rao261@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Indiranagar,Budget,600,"Chinese, Momos, Asian",0.0
+262,Gautam Shetty,gautam.shetty262@example.in,budget_tech_student,Budget Techie / Student,Koramangala 1st Block,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+263,Yash Reddy,yash.reddy263@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Koramangala 7th Block,Budget,600,"Chinese, Momos, Asian",0.0
+264,Naveen Banerjee,naveen.banerjee264@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Indiranagar,Budget,600,"Chinese, Momos, Asian",0.0
+265,Aarav Kumar,aarav.kumar265@example.in,budget_tech_student,Budget Techie / Student,Koramangala 1st Block,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+266,Neha Reddy,neha.reddy266@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Banashankari,Budget,500,"South Indian, Karnataka, Udupi",0.2
+267,Harish Singh,harish.singh267@example.in,south_indian_traditionalist,South Indian Tiffin Lover,BTM,Budget,500,"South Indian, Karnataka, Udupi",0.2
+268,Pranav Gupta,pranav.gupta268@example.in,budget_tech_student,Budget Techie / Student,Koramangala 1st Block,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+269,Naveen Menon,naveen.menon269@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,MG Road,Premium,1800,"Cafe, Continental, Italian",0.15
+270,Shreya Kulkarni,shreya.kulkarni270@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,HSR,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+271,Gautam Patel,gautam.patel271@example.in,north_indian_family_diner,North Indian Family Diner,Bannerghatta Road,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+272,Suresh Bhat,suresh.bhat272@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Sadashiv Nagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+273,Aarav Shetty,aarav.shetty273@example.in,budget_tech_student,Budget Techie / Student,Electronic City,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+274,Yash Iyer,yash.iyer274@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Indiranagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+275,Vikram Deshmukh,vikram.deshmukh275@example.in,north_indian_family_diner,North Indian Family Diner,Bannerghatta Road,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+276,Shreya Menon,shreya.menon276@example.in,north_indian_family_diner,North Indian Family Diner,Bannerghatta Road,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+277,Manish Banerjee,manish.banerjee277@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Residency Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+278,Shreya Hegde,shreya.hegde278@example.in,north_indian_family_diner,North Indian Family Diner,Bellandur,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+279,Rakesh Bose,rakesh.bose279@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Banashankari,Budget,500,"South Indian, Karnataka, Udupi",0.2
+280,Shreya Verma,shreya.verma280@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Indiranagar,Budget,600,"Chinese, Momos, Asian",0.0
+281,Amit Iyer,amit.iyer281@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,MG Road,Premium,1800,"Cafe, Continental, Italian",0.15
+282,Riya Reddy,riya.reddy282@example.in,north_indian_family_diner,North Indian Family Diner,Bellandur,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+283,Vikas Sharma,vikas.sharma283@example.in,south_indian_traditionalist,South Indian Tiffin Lover,BTM,Budget,500,"South Indian, Karnataka, Udupi",0.2
+284,Suresh Prasad,suresh.prasad284@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Shivajinagar,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+285,Vikram Gowda,vikram.gowda285@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Malleshwaram,Budget,500,"South Indian, Karnataka, Udupi",0.2
+286,Sneha Prasad,sneha.prasad286@example.in,north_indian_family_diner,North Indian Family Diner,JP Nagar,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+287,Riya Das,riya.das287@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Sadashiv Nagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+288,Rakesh Prasad,rakesh.prasad288@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Lavelle Road,Premium,1800,"Cafe, Continental, Italian",0.15
+289,Amit Joshi,amit.joshi289@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Lavelle Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+290,Priya Hegde,priya.hegde290@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Marathahalli,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+291,Tanvi Reddy,tanvi.reddy291@example.in,south_indian_traditionalist,South Indian Tiffin Lover,BTM,Budget,500,"South Indian, Karnataka, Udupi",0.2
+292,Deepak Menon,deepak.menon292@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Indiranagar,Budget,600,"Chinese, Momos, Asian",0.0
+293,Rahul Sharma,rahul.sharma293@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Koramangala 7th Block,Budget,600,"Chinese, Momos, Asian",0.0
+294,Ananya Shetty,ananya.shetty294@example.in,budget_tech_student,Budget Techie / Student,Electronic City,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+295,Tanvi Iyer,tanvi.iyer295@example.in,budget_tech_student,Budget Techie / Student,HSR,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+296,Suresh Chopra,suresh.chopra296@example.in,north_indian_family_diner,North Indian Family Diner,Whitefield,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+297,Kavya Patel,kavya.patel297@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,HSR,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+298,Shreya Joshi,shreya.joshi298@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Residency Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+299,Harish Hegde,harish.hegde299@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Lavelle Road,Premium,1800,"Cafe, Continental, Italian",0.15
+300,Pooja Menon,pooja.menon300@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,BTM,Budget,600,"Chinese, Momos, Asian",0.0
+301,Aarav Menon,aarav.menon301@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,BTM,Budget,600,"Chinese, Momos, Asian",0.0
+302,Ishaan Patel,ishaan.patel302@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kammanahalli,Budget,600,"Chinese, Momos, Asian",0.0
+303,Rahul Prasad,rahul.prasad303@example.in,budget_tech_student,Budget Techie / Student,Koramangala 1st Block,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+304,Pooja Menon,pooja.menon304@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,BTM,Budget,600,"Chinese, Momos, Asian",0.0
+305,Shreya Singh,shreya.singh305@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Frazer Town,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+306,Shreya Chopra,shreya.chopra306@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Koramangala 5th Block,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+307,Priya Banerjee,priya.banerjee307@example.in,north_indian_family_diner,North Indian Family Diner,Bannerghatta Road,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+308,Sneha Gowda,sneha.gowda308@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Jayanagar,Budget,500,"South Indian, Karnataka, Udupi",0.2
+309,Ananya Joshi,ananya.joshi309@example.in,north_indian_family_diner,North Indian Family Diner,Bellandur,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+310,Priya Hegde,priya.hegde310@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Sadashiv Nagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+311,Rohan Hegde,rohan.hegde311@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Residency Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+312,Pooja Das,pooja.das312@example.in,north_indian_family_diner,North Indian Family Diner,Whitefield,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+313,Deepak Prasad,deepak.prasad313@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Koramangala 7th Block,Budget,600,"Chinese, Momos, Asian",0.0
+314,Varun Rao,varun.rao314@example.in,budget_tech_student,Budget Techie / Student,Marathahalli,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+315,Gautam Patel,gautam.patel315@example.in,budget_tech_student,Budget Techie / Student,Electronic City,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+316,Suresh Nair,suresh.nair316@example.in,budget_tech_student,Budget Techie / Student,HSR,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+317,Sanjay Murthy,sanjay.murthy317@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,HSR,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+318,Ishaan Gowda,ishaan.gowda318@example.in,budget_tech_student,Budget Techie / Student,Koramangala 1st Block,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+319,Priya Bose,priya.bose319@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,MG Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+320,Divya Menon,divya.menon320@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Lavelle Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+321,Neha Das,neha.das321@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Marathahalli,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+322,Sneha Kumar,sneha.kumar322@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,BTM,Budget,600,"Chinese, Momos, Asian",0.0
+323,Sneha Sharma,sneha.sharma323@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Malleshwaram,Budget,500,"South Indian, Karnataka, Udupi",0.2
+324,Divya Menon,divya.menon324@example.in,north_indian_family_diner,North Indian Family Diner,Bannerghatta Road,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+325,Pooja Chopra,pooja.chopra325@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kammanahalli,Budget,600,"Chinese, Momos, Asian",0.0
+326,Sanjay Reddy,sanjay.reddy326@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Residency Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+327,Aditi Joshi,aditi.joshi327@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,MG Road,Premium,1800,"Cafe, Continental, Italian",0.15
+328,Neha Prasad,neha.prasad328@example.in,budget_tech_student,Budget Techie / Student,BTM,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+329,Vikas Banerjee,vikas.banerjee329@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,BTM,Budget,600,"Chinese, Momos, Asian",0.0
+330,Suresh Reddy,suresh.reddy330@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Indiranagar,Budget,600,"Chinese, Momos, Asian",0.0
+331,Amit Shetty,amit.shetty331@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Banashankari,Budget,500,"South Indian, Karnataka, Udupi",0.2
+332,Deepak Hegde,deepak.hegde332@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Rajajinagar,Budget,500,"South Indian, Karnataka, Udupi",0.2
+333,Shreya Menon,shreya.menon333@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Koramangala 5th Block,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+334,Suresh Chopra,suresh.chopra334@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Indiranagar,Budget,600,"Chinese, Momos, Asian",0.0
+335,Deepak Singh,deepak.singh335@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,MG Road,Premium,1800,"Cafe, Continental, Italian",0.15
+336,Pranav Rao,pranav.rao336@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Church Street,Premium,1800,"Cafe, Continental, Italian",0.15
+337,Varun Menon,varun.menon337@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Shivajinagar,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+338,Sanjay Reddy,sanjay.reddy338@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,MG Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+339,Rohan Rao,rohan.rao339@example.in,north_indian_family_diner,North Indian Family Diner,Bellandur,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+340,Manish Reddy,manish.reddy340@example.in,budget_tech_student,Budget Techie / Student,Koramangala 1st Block,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+341,Meera Prasad,meera.prasad341@example.in,south_indian_traditionalist,South Indian Tiffin Lover,BTM,Budget,500,"South Indian, Karnataka, Udupi",0.2
+342,Aditi Rao,aditi.rao342@example.in,north_indian_family_diner,North Indian Family Diner,Bannerghatta Road,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+343,Gautam Chopra,gautam.chopra343@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Shivajinagar,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+344,Meera Chopra,meera.chopra344@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Basavanagudi,Budget,500,"South Indian, Karnataka, Udupi",0.2
+345,Neha Bhat,neha.bhat345@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Residency Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+346,Aarav Gowda,aarav.gowda346@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Residency Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+347,Pooja Nair,pooja.nair347@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Frazer Town,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+348,Aditi Iyer,aditi.iyer348@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Koramangala 7th Block,Budget,600,"Chinese, Momos, Asian",0.0
+349,Naveen Chopra,naveen.chopra349@example.in,budget_tech_student,Budget Techie / Student,Electronic City,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+350,Kavya Gowda,kavya.gowda350@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Jayanagar,Budget,500,"South Indian, Karnataka, Udupi",0.2
+351,Suresh Murthy,suresh.murthy351@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Frazer Town,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+352,Aniruddh Singh,aniruddh.singh352@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kammanahalli,Budget,600,"Chinese, Momos, Asian",0.0
+353,Sanjay Murthy,sanjay.murthy353@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Sadashiv Nagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+354,Varun Murthy,varun.murthy354@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Basavanagudi,Budget,500,"South Indian, Karnataka, Udupi",0.2
+355,Amit Bose,amit.bose355@example.in,north_indian_family_diner,North Indian Family Diner,HSR,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+356,Vikas Prasad,vikas.prasad356@example.in,budget_tech_student,Budget Techie / Student,BTM,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+357,Vikram Verma,vikram.verma357@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Banashankari,Budget,500,"South Indian, Karnataka, Udupi",0.2
+358,Deepak Singh,deepak.singh358@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kammanahalli,Budget,600,"Chinese, Momos, Asian",0.0
+359,Arjun Bhat,arjun.bhat359@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Rajajinagar,Budget,500,"South Indian, Karnataka, Udupi",0.2
+360,Aniruddh Iyer,aniruddh.iyer360@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Koramangala 5th Block,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+361,Rakesh Verma,rakesh.verma361@example.in,north_indian_family_diner,North Indian Family Diner,HSR,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+362,Priya Menon,priya.menon362@example.in,north_indian_family_diner,North Indian Family Diner,HSR,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+363,Tanvi Reddy,tanvi.reddy363@example.in,north_indian_family_diner,North Indian Family Diner,JP Nagar,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+364,Meera Gupta,meera.gupta364@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Indiranagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+365,Suresh Bhat,suresh.bhat365@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,BTM,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+366,Suresh Bose,suresh.bose366@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Koramangala 5th Block,Premium,1800,"Cafe, Continental, Italian",0.15
+367,Tanvi Bhat,tanvi.bhat367@example.in,budget_tech_student,Budget Techie / Student,Electronic City,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+368,Harish Das,harish.das368@example.in,budget_tech_student,Budget Techie / Student,Koramangala 1st Block,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+369,Arjun Patel,arjun.patel369@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Jayanagar,Budget,500,"South Indian, Karnataka, Udupi",0.2
+370,Deepak Bose,deepak.bose370@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Church Street,Premium,1800,"Cafe, Continental, Italian",0.15
+371,Gautam Kumar,gautam.kumar371@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Lavelle Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+372,Riya Das,riya.das372@example.in,north_indian_family_diner,North Indian Family Diner,JP Nagar,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+373,Rohan Das,rohan.das373@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Lavelle Road,Premium,1800,"Cafe, Continental, Italian",0.15
+374,Ananya Shetty,ananya.shetty374@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Sadashiv Nagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+375,Rohan Reddy,rohan.reddy375@example.in,budget_tech_student,Budget Techie / Student,Marathahalli,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+376,Meera Iyer,meera.iyer376@example.in,north_indian_family_diner,North Indian Family Diner,Bellandur,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+377,Deepak Deshmukh,deepak.deshmukh377@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,HSR,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+378,Divya Gowda,divya.gowda378@example.in,budget_tech_student,Budget Techie / Student,Marathahalli,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+379,Tanvi Kumar,tanvi.kumar379@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,HSR,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+380,Aditi Joshi,aditi.joshi380@example.in,north_indian_family_diner,North Indian Family Diner,Bannerghatta Road,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+381,Kavya Gowda,kavya.gowda381@example.in,south_indian_traditionalist,South Indian Tiffin Lover,BTM,Budget,500,"South Indian, Karnataka, Udupi",0.2
+382,Rahul Bhat,rahul.bhat382@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,MG Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+383,Kavya Iyer,kavya.iyer383@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Rajajinagar,Budget,500,"South Indian, Karnataka, Udupi",0.2
+384,Sneha Patel,sneha.patel384@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Indiranagar,Budget,600,"Chinese, Momos, Asian",0.0
+385,Aditi Patel,aditi.patel385@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kalyan Nagar,Budget,600,"Chinese, Momos, Asian",0.0
+386,Shreya Gupta,shreya.gupta386@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,BTM,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+387,Ishaan Deshmukh,ishaan.deshmukh387@example.in,budget_tech_student,Budget Techie / Student,Electronic City,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+388,Rakesh Chopra,rakesh.chopra388@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kalyan Nagar,Budget,600,"Chinese, Momos, Asian",0.0
+389,Ananya Iyer,ananya.iyer389@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Basavanagudi,Budget,500,"South Indian, Karnataka, Udupi",0.2
+390,Ananya Das,ananya.das390@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Lavelle Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+391,Varun Das,varun.das391@example.in,budget_tech_student,Budget Techie / Student,Koramangala 1st Block,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+392,Varun Gupta,varun.gupta392@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Church Street,Premium,1800,"Cafe, Continental, Italian",0.15
+393,Divya Deshmukh,divya.deshmukh393@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,BTM,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+394,Priya Das,priya.das394@example.in,south_indian_traditionalist,South Indian Tiffin Lover,BTM,Budget,500,"South Indian, Karnataka, Udupi",0.2
+395,Yash Murthy,yash.murthy395@example.in,north_indian_family_diner,North Indian Family Diner,Bannerghatta Road,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+396,Neha Verma,neha.verma396@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Rajajinagar,Budget,500,"South Indian, Karnataka, Udupi",0.2
+397,Aarav Kulkarni,aarav.kulkarni397@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Malleshwaram,Budget,500,"South Indian, Karnataka, Udupi",0.2
+398,Gautam Gowda,gautam.gowda398@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Koramangala 5th Block,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+399,Divya Sharma,divya.sharma399@example.in,budget_tech_student,Budget Techie / Student,Koramangala 1st Block,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+400,Tanvi Nair,tanvi.nair400@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Indiranagar,Budget,600,"Chinese, Momos, Asian",0.0
+401,Neha Murthy,neha.murthy401@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,MG Road,Premium,1800,"Cafe, Continental, Italian",0.15
+402,Rohan Patel,rohan.patel402@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Indiranagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+403,Amit Gupta,amit.gupta403@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Lavelle Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+404,Aniruddh Bhat,aniruddh.bhat404@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,MG Road,Premium,1800,"Cafe, Continental, Italian",0.15
+405,Sneha Banerjee,sneha.banerjee405@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Lavelle Road,Premium,1800,"Cafe, Continental, Italian",0.15
+406,Divya Verma,divya.verma406@example.in,budget_tech_student,Budget Techie / Student,BTM,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+407,Ishaan Joshi,ishaan.joshi407@example.in,budget_tech_student,Budget Techie / Student,Koramangala 1st Block,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+408,Sanjay Patel,sanjay.patel408@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Indiranagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+409,Deepak Hegde,deepak.hegde409@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Indiranagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+410,Sneha Murthy,sneha.murthy410@example.in,north_indian_family_diner,North Indian Family Diner,JP Nagar,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+411,Rahul Bose,rahul.bose411@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Church Street,Premium,1800,"Cafe, Continental, Italian",0.15
+412,Riya Nair,riya.nair412@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Frazer Town,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+413,Divya Murthy,divya.murthy413@example.in,north_indian_family_diner,North Indian Family Diner,HSR,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+414,Rohan Deshmukh,rohan.deshmukh414@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Marathahalli,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+415,Harish Hegde,harish.hegde415@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Lavelle Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+416,Pooja Kulkarni,pooja.kulkarni416@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Shivajinagar,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+417,Harish Prasad,harish.prasad417@example.in,north_indian_family_diner,North Indian Family Diner,JP Nagar,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+418,Yash Menon,yash.menon418@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,HSR,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+419,Varun Das,varun.das419@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Sadashiv Nagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+420,Rakesh Prasad,rakesh.prasad420@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,BTM,Budget,600,"Chinese, Momos, Asian",0.0
+421,Varun Patel,varun.patel421@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,BTM,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+422,Rahul Gowda,rahul.gowda422@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,MG Road,Premium,1800,"Cafe, Continental, Italian",0.15
+423,Rohan Murthy,rohan.murthy423@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Jayanagar,Budget,500,"South Indian, Karnataka, Udupi",0.2
+424,Vikas Menon,vikas.menon424@example.in,budget_tech_student,Budget Techie / Student,BTM,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+425,Sanjay Shetty,sanjay.shetty425@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Jayanagar,Budget,500,"South Indian, Karnataka, Udupi",0.2
+426,Arjun Joshi,arjun.joshi426@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kalyan Nagar,Budget,600,"Chinese, Momos, Asian",0.0
+427,Shreya Menon,shreya.menon427@example.in,north_indian_family_diner,North Indian Family Diner,HSR,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+428,Amit Menon,amit.menon428@example.in,north_indian_family_diner,North Indian Family Diner,HSR,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+429,Manish Bhat,manish.bhat429@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kalyan Nagar,Budget,600,"Chinese, Momos, Asian",0.0
+430,Harish Rao,harish.rao430@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Lavelle Road,Premium,1800,"Cafe, Continental, Italian",0.15
+431,Riya Banerjee,riya.banerjee431@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Jayanagar,Budget,500,"South Indian, Karnataka, Udupi",0.2
+432,Kavya Rao,kavya.rao432@example.in,north_indian_family_diner,North Indian Family Diner,Whitefield,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+433,Varun Menon,varun.menon433@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kalyan Nagar,Budget,600,"Chinese, Momos, Asian",0.0
+434,Ishaan Deshmukh,ishaan.deshmukh434@example.in,north_indian_family_diner,North Indian Family Diner,Bannerghatta Road,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+435,Shreya Gupta,shreya.gupta435@example.in,budget_tech_student,Budget Techie / Student,Electronic City,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+436,Ananya Prasad,ananya.prasad436@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,BTM,Budget,600,"Chinese, Momos, Asian",0.0
+437,Riya Reddy,riya.reddy437@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Rajajinagar,Budget,500,"South Indian, Karnataka, Udupi",0.2
+438,Shreya Shetty,shreya.shetty438@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,BTM,Budget,600,"Chinese, Momos, Asian",0.0
+439,Harish Bhat,harish.bhat439@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Koramangala 7th Block,Budget,600,"Chinese, Momos, Asian",0.0
+440,Harish Deshmukh,harish.deshmukh440@example.in,north_indian_family_diner,North Indian Family Diner,Bannerghatta Road,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+441,Sneha Iyer,sneha.iyer441@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kalyan Nagar,Budget,600,"Chinese, Momos, Asian",0.0
+442,Arjun Shetty,arjun.shetty442@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kalyan Nagar,Budget,600,"Chinese, Momos, Asian",0.0
+443,Riya Iyer,riya.iyer443@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,MG Road,Premium,1800,"Cafe, Continental, Italian",0.15
+444,Tanvi Murthy,tanvi.murthy444@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Malleshwaram,Budget,500,"South Indian, Karnataka, Udupi",0.2
+445,Sanjay Shetty,sanjay.shetty445@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Basavanagudi,Budget,500,"South Indian, Karnataka, Udupi",0.2
+446,Riya Singh,riya.singh446@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Shivajinagar,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+447,Gautam Iyer,gautam.iyer447@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Frazer Town,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+448,Deepak Murthy,deepak.murthy448@example.in,budget_tech_student,Budget Techie / Student,Marathahalli,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+449,Amit Das,amit.das449@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,MG Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+450,Gautam Joshi,gautam.joshi450@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Indiranagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+451,Ishaan Nair,ishaan.nair451@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Marathahalli,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+452,Ishaan Bose,ishaan.bose452@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Indiranagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+453,Suresh Deshmukh,suresh.deshmukh453@example.in,south_indian_traditionalist,South Indian Tiffin Lover,BTM,Budget,500,"South Indian, Karnataka, Udupi",0.2
+454,Naveen Menon,naveen.menon454@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kalyan Nagar,Budget,600,"Chinese, Momos, Asian",0.0
+455,Varun Hegde,varun.hegde455@example.in,budget_tech_student,Budget Techie / Student,Marathahalli,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+456,Rahul Singh,rahul.singh456@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Shivajinagar,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+457,Varun Menon,varun.menon457@example.in,budget_tech_student,Budget Techie / Student,Electronic City,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+458,Shreya Murthy,shreya.murthy458@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Sadashiv Nagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+459,Ishaan Kulkarni,ishaan.kulkarni459@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,MG Road,Premium,1800,"Cafe, Continental, Italian",0.15
+460,Pooja Rao,pooja.rao460@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Marathahalli,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+461,Sanjay Kumar,sanjay.kumar461@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Koramangala 5th Block,Premium,1800,"Cafe, Continental, Italian",0.15
+462,Divya Shetty,divya.shetty462@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Koramangala 7th Block,Budget,600,"Chinese, Momos, Asian",0.0
+463,Ishaan Gowda,ishaan.gowda463@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Indiranagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+464,Harish Gupta,harish.gupta464@example.in,north_indian_family_diner,North Indian Family Diner,JP Nagar,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+465,Varun Deshmukh,varun.deshmukh465@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Frazer Town,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+466,Ananya Verma,ananya.verma466@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,MG Road,Premium,1800,"Cafe, Continental, Italian",0.15
+467,Naveen Verma,naveen.verma467@example.in,budget_tech_student,Budget Techie / Student,BTM,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+468,Neha Sharma,neha.sharma468@example.in,budget_tech_student,Budget Techie / Student,Electronic City,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+469,Riya Iyer,riya.iyer469@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Basavanagudi,Budget,500,"South Indian, Karnataka, Udupi",0.2
+470,Priya Singh,priya.singh470@example.in,south_indian_traditionalist,South Indian Tiffin Lover,BTM,Budget,500,"South Indian, Karnataka, Udupi",0.2
+471,Gautam Banerjee,gautam.banerjee471@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Indiranagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+472,Aarav Patel,aarav.patel472@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Koramangala 5th Block,Premium,1800,"Cafe, Continental, Italian",0.15
+473,Meera Iyer,meera.iyer473@example.in,budget_tech_student,Budget Techie / Student,Marathahalli,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+474,Tanvi Reddy,tanvi.reddy474@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,BTM,Budget,600,"Chinese, Momos, Asian",0.0
+475,Rahul Reddy,rahul.reddy475@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Frazer Town,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+476,Suresh Prasad,suresh.prasad476@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,HSR,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+477,Aniruddh Reddy,aniruddh.reddy477@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Lavelle Road,Premium,1800,"Cafe, Continental, Italian",0.15
+478,Aditi Prasad,aditi.prasad478@example.in,north_indian_family_diner,North Indian Family Diner,HSR,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+479,Naveen Banerjee,naveen.banerjee479@example.in,north_indian_family_diner,North Indian Family Diner,Whitefield,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+480,Tanvi Sharma,tanvi.sharma480@example.in,budget_tech_student,Budget Techie / Student,Marathahalli,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+481,Naveen Chopra,naveen.chopra481@example.in,budget_tech_student,Budget Techie / Student,Koramangala 1st Block,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+482,Arjun Murthy,arjun.murthy482@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Koramangala 5th Block,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+483,Aditi Verma,aditi.verma483@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Banashankari,Budget,500,"South Indian, Karnataka, Udupi",0.2
+484,Shreya Deshmukh,shreya.deshmukh484@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Malleshwaram,Budget,500,"South Indian, Karnataka, Udupi",0.2
+485,Aditi Deshmukh,aditi.deshmukh485@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Koramangala 7th Block,Budget,600,"Chinese, Momos, Asian",0.0
+486,Naveen Bose,naveen.bose486@example.in,budget_tech_student,Budget Techie / Student,BTM,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+487,Riya Iyer,riya.iyer487@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Lavelle Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+488,Riya Prasad,riya.prasad488@example.in,budget_tech_student,Budget Techie / Student,HSR,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+489,Vikas Banerjee,vikas.banerjee489@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Indiranagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+490,Kavya Iyer,kavya.iyer490@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Koramangala 7th Block,Budget,600,"Chinese, Momos, Asian",0.0
+491,Vikas Rao,vikas.rao491@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,BTM,Budget,600,"Chinese, Momos, Asian",0.0
+492,Amit Kulkarni,amit.kulkarni492@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Frazer Town,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+493,Rahul Murthy,rahul.murthy493@example.in,budget_tech_student,Budget Techie / Student,Koramangala 1st Block,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+494,Vikram Gowda,vikram.gowda494@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Lavelle Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+495,Manish Shetty,manish.shetty495@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,MG Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+496,Ananya Prasad,ananya.prasad496@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,MG Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+497,Divya Deshmukh,divya.deshmukh497@example.in,budget_tech_student,Budget Techie / Student,Koramangala 1st Block,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+498,Varun Verma,varun.verma498@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Church Street,Premium,1800,"Cafe, Continental, Italian",0.15
+499,Yash Banerjee,yash.banerjee499@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,BTM,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+500,Pranav Patel,pranav.patel500@example.in,budget_tech_student,Budget Techie / Student,Koramangala 1st Block,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+501,Tanvi Joshi,tanvi.joshi501@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Basavanagudi,Budget,500,"South Indian, Karnataka, Udupi",0.2
+502,Priya Bhat,priya.bhat502@example.in,north_indian_family_diner,North Indian Family Diner,JP Nagar,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+503,Rakesh Das,rakesh.das503@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Malleshwaram,Budget,500,"South Indian, Karnataka, Udupi",0.2
+504,Varun Joshi,varun.joshi504@example.in,budget_tech_student,Budget Techie / Student,Koramangala 1st Block,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+505,Varun Deshmukh,varun.deshmukh505@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,BTM,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+506,Rohan Joshi,rohan.joshi506@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Banashankari,Budget,500,"South Indian, Karnataka, Udupi",0.2
+507,Ananya Patel,ananya.patel507@example.in,budget_tech_student,Budget Techie / Student,Koramangala 1st Block,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+508,Ishaan Sharma,ishaan.sharma508@example.in,budget_tech_student,Budget Techie / Student,HSR,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+509,Varun Rao,varun.rao509@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Residency Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+510,Naveen Prasad,naveen.prasad510@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Malleshwaram,Budget,500,"South Indian, Karnataka, Udupi",0.2
+511,Shreya Chopra,shreya.chopra511@example.in,budget_tech_student,Budget Techie / Student,BTM,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+512,Harish Das,harish.das512@example.in,north_indian_family_diner,North Indian Family Diner,Bellandur,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+513,Sanjay Menon,sanjay.menon513@example.in,budget_tech_student,Budget Techie / Student,BTM,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+514,Gautam Murthy,gautam.murthy514@example.in,north_indian_family_diner,North Indian Family Diner,Bannerghatta Road,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+515,Rakesh Prasad,rakesh.prasad515@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Church Street,Premium,1800,"Cafe, Continental, Italian",0.15
+516,Divya Sharma,divya.sharma516@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Marathahalli,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+517,Yash Murthy,yash.murthy517@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,BTM,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+518,Divya Gowda,divya.gowda518@example.in,north_indian_family_diner,North Indian Family Diner,Bannerghatta Road,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+519,Varun Kulkarni,varun.kulkarni519@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kalyan Nagar,Budget,600,"Chinese, Momos, Asian",0.0
+520,Yash Kulkarni,yash.kulkarni520@example.in,budget_tech_student,Budget Techie / Student,BTM,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+521,Aniruddh Menon,aniruddh.menon521@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Shivajinagar,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+522,Varun Patel,varun.patel522@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,BTM,Budget,600,"Chinese, Momos, Asian",0.0
+523,Rohan Banerjee,rohan.banerjee523@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Koramangala 7th Block,Budget,600,"Chinese, Momos, Asian",0.0
+524,Priya Shetty,priya.shetty524@example.in,north_indian_family_diner,North Indian Family Diner,Whitefield,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+525,Kavya Deshmukh,kavya.deshmukh525@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kalyan Nagar,Budget,600,"Chinese, Momos, Asian",0.0
+526,Divya Kulkarni,divya.kulkarni526@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Shivajinagar,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+527,Yash Sharma,yash.sharma527@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Koramangala 5th Block,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+528,Sanjay Menon,sanjay.menon528@example.in,north_indian_family_diner,North Indian Family Diner,HSR,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+529,Arjun Patel,arjun.patel529@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Koramangala 5th Block,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+530,Vikram Murthy,vikram.murthy530@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Lavelle Road,Premium,1800,"Cafe, Continental, Italian",0.15
+531,Suresh Chopra,suresh.chopra531@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Lavelle Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+532,Rakesh Prasad,rakesh.prasad532@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Frazer Town,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+533,Vikas Das,vikas.das533@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,MG Road,Premium,1800,"Cafe, Continental, Italian",0.15
+534,Gautam Kumar,gautam.kumar534@example.in,budget_tech_student,Budget Techie / Student,Marathahalli,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+535,Gautam Gupta,gautam.gupta535@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,HSR,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+536,Ananya Reddy,ananya.reddy536@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Sadashiv Nagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+537,Rahul Nair,rahul.nair537@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Shivajinagar,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+538,Neha Deshmukh,neha.deshmukh538@example.in,budget_tech_student,Budget Techie / Student,Marathahalli,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+539,Arjun Gowda,arjun.gowda539@example.in,budget_tech_student,Budget Techie / Student,HSR,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+540,Pranav Iyer,pranav.iyer540@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,BTM,Budget,600,"Chinese, Momos, Asian",0.0
+541,Arjun Murthy,arjun.murthy541@example.in,north_indian_family_diner,North Indian Family Diner,Whitefield,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+542,Harish Nair,harish.nair542@example.in,north_indian_family_diner,North Indian Family Diner,HSR,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+543,Riya Chopra,riya.chopra543@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Koramangala 7th Block,Budget,600,"Chinese, Momos, Asian",0.0
+544,Aditi Patel,aditi.patel544@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Lavelle Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+545,Pooja Prasad,pooja.prasad545@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Indiranagar,Budget,600,"Chinese, Momos, Asian",0.0
+546,Suresh Joshi,suresh.joshi546@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Lavelle Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+547,Priya Prasad,priya.prasad547@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Church Street,Premium,1800,"Cafe, Continental, Italian",0.15
+548,Naveen Das,naveen.das548@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Lavelle Road,Premium,1800,"Cafe, Continental, Italian",0.15
+549,Vikas Patel,vikas.patel549@example.in,budget_tech_student,Budget Techie / Student,BTM,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+550,Varun Gupta,varun.gupta550@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,BTM,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+551,Meera Bhat,meera.bhat551@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,MG Road,Premium,1800,"Cafe, Continental, Italian",0.15
+552,Rakesh Banerjee,rakesh.banerjee552@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Koramangala 5th Block,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+553,Rohan Verma,rohan.verma553@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Indiranagar,Budget,600,"Chinese, Momos, Asian",0.0
+554,Sanjay Murthy,sanjay.murthy554@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Sadashiv Nagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+555,Rakesh Hegde,rakesh.hegde555@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Banashankari,Budget,500,"South Indian, Karnataka, Udupi",0.2
+556,Pranav Menon,pranav.menon556@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Basavanagudi,Budget,500,"South Indian, Karnataka, Udupi",0.2
+557,Deepak Rao,deepak.rao557@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,Koramangala 5th Block,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+558,Suresh Hegde,suresh.hegde558@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Indiranagar,Premium,1800,"Cafe, Continental, Italian",0.15
+559,Rakesh Chopra,rakesh.chopra559@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,MG Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+560,Ishaan Singh,ishaan.singh560@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,HSR,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+561,Yash Shetty,yash.shetty561@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Lavelle Road,Premium,1800,"Cafe, Continental, Italian",0.15
+562,Arjun Verma,arjun.verma562@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Rajajinagar,Budget,500,"South Indian, Karnataka, Udupi",0.2
+563,Naveen Kulkarni,naveen.kulkarni563@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,MG Road,Premium,1800,"Cafe, Continental, Italian",0.15
+564,Ananya Rao,ananya.rao564@example.in,budget_tech_student,Budget Techie / Student,Electronic City,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+565,Vikram Shetty,vikram.shetty565@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,MG Road,Premium,1800,"Cafe, Continental, Italian",0.15
+566,Deepak Gupta,deepak.gupta566@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Basavanagudi,Budget,500,"South Indian, Karnataka, Udupi",0.2
+567,Sanjay Verma,sanjay.verma567@example.in,budget_tech_student,Budget Techie / Student,Electronic City,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+568,Sneha Rao,sneha.rao568@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Rajajinagar,Budget,500,"South Indian, Karnataka, Udupi",0.2
+569,Manish Deshmukh,manish.deshmukh569@example.in,north_indian_family_diner,North Indian Family Diner,HSR,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+570,Aniruddh Verma,aniruddh.verma570@example.in,budget_tech_student,Budget Techie / Student,Marathahalli,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+571,Pranav Joshi,pranav.joshi571@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,MG Road,Premium,1800,"Cafe, Continental, Italian",0.15
+572,Gautam Reddy,gautam.reddy572@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Banashankari,Budget,500,"South Indian, Karnataka, Udupi",0.2
+573,Riya Kumar,riya.kumar573@example.in,budget_tech_student,Budget Techie / Student,Electronic City,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+574,Harish Kulkarni,harish.kulkarni574@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Sadashiv Nagar,Luxury,4000,"Continental, Italian, North Indian",0.25
+575,Sneha Murthy,sneha.murthy575@example.in,north_indian_family_diner,North Indian Family Diner,JP Nagar,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+576,Amit Iyer,amit.iyer576@example.in,south_indian_traditionalist,South Indian Tiffin Lover,BTM,Budget,500,"South Indian, Karnataka, Udupi",0.2
+577,Vikram Murthy,vikram.murthy577@example.in,budget_tech_student,Budget Techie / Student,Koramangala 1st Block,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+578,Gautam Bhat,gautam.bhat578@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,HSR,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+579,Ishaan Verma,ishaan.verma579@example.in,budget_tech_student,Budget Techie / Student,Marathahalli,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+580,Rahul Chopra,rahul.chopra580@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,BTM,Budget,600,"Chinese, Momos, Asian",0.0
+581,Yash Banerjee,yash.banerjee581@example.in,north_indian_family_diner,North Indian Family Diner,HSR,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+582,Vikram Sharma,vikram.sharma582@example.in,budget_tech_student,Budget Techie / Student,Electronic City,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+583,Divya Gupta,divya.gupta583@example.in,budget_tech_student,Budget Techie / Student,Marathahalli,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+584,Aditi Joshi,aditi.joshi584@example.in,budget_tech_student,Budget Techie / Student,Koramangala 1st Block,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+585,Neha Bose,neha.bose585@example.in,budget_tech_student,Budget Techie / Student,BTM,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+586,Vikram Nair,vikram.nair586@example.in,north_indian_family_diner,North Indian Family Diner,HSR,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+587,Shreya Iyer,shreya.iyer587@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Indiranagar,Budget,600,"Chinese, Momos, Asian",0.0
+588,Divya Kulkarni,divya.kulkarni588@example.in,south_indian_traditionalist,South Indian Tiffin Lover,Jayanagar,Budget,500,"South Indian, Karnataka, Udupi",0.2
+589,Rakesh Gupta,rakesh.gupta589@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Indiranagar,Premium,1800,"Cafe, Continental, Italian",0.15
+590,Meera Gupta,meera.gupta590@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,MG Road,Premium,1800,"Cafe, Continental, Italian",0.15
+591,Vikram Bose,vikram.bose591@example.in,luxury_fine_dine_gourmet,Fine Dining Connoisseur,Lavelle Road,Luxury,4000,"Continental, Italian, North Indian",0.25
+592,Gautam Murthy,gautam.murthy592@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Indiranagar,Budget,600,"Chinese, Momos, Asian",0.0
+593,Rakesh Das,rakesh.das593@example.in,north_indian_family_diner,North Indian Family Diner,Bellandur,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+594,Shreya Bhat,shreya.bhat594@example.in,north_indian_family_diner,North Indian Family Diner,Whitefield,Moderate,900,"North Indian, Punjabi, Mughlai",0.05
+595,Riya Kumar,riya.kumar595@example.in,koramangala_cafe_pub_goer,Indiranagar & Koramangala Cafe Hopper,Church Street,Premium,1800,"Cafe, Continental, Italian",0.15
+596,Pooja Joshi,pooja.joshi596@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kammanahalli,Budget,600,"Chinese, Momos, Asian",0.0
+597,Naveen Gowda,naveen.gowda597@example.in,biryani_mughlai_enthusiast,Biryani & Kebabs Lover,HSR,Moderate,1000,"Biryani, Mughlai, North Indian",0.1
+598,Neha Shetty,neha.shetty598@example.in,budget_tech_student,Budget Techie / Student,Electronic City,Budget,350,"Fast Food, Chinese, Street Food",-0.1
+599,Meera Banerjee,meera.banerjee599@example.in,indo_chinese_asian_seeker,Pan-Asian & Indo-Chinese Fan,Kammanahalli,Budget,600,"Chinese, Momos, Asian",0.0
+600,Vikram Deshmukh,vikram.deshmukh600@example.in,budget_tech_student,Budget Techie / Student,Marathahalli,Budget,350,"Fast Food, Chinese, Street Food",-0.1

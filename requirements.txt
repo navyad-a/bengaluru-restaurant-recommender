@@ -1,0 +1,37 @@
+# Backend & Web Framework
+fastapi==0.141.1
+uvicorn==0.52.3
+pydantic==2.13.4
+pydantic-settings==2.15.0
+python-dotenv==1.2.2
+python-multipart==0.0.32
+
+# Database & Async ORM (PostgreSQL)
+sqlalchemy==2.0.52
+asyncpg==0.31.0
+alembic==1.19.1
+greenlet==3.5.5
+
+# Machine Learning & Data Processing
+numpy==2.5.2
+pandas==3.0.5
+scipy==1.18.0
+scikit-learn==1.9.0
+scikit-surprise==1.1.5
+joblib==1.5.3
+
+# Frontend Dashboard
+streamlit==1.61.1
+requests==2.34.2
+
+# Cache & Concurrency (Phase 12 & 15)
+redis==8.1.0
+
+# Production ASGI / WSGI Server
+gunicorn==23.0.0
+
+# Testing & Verification
+pytest==9.1.1
+pytest-asyncio==1.4.0
+pytest-cov==7.1.0
+httpx==0.28.1

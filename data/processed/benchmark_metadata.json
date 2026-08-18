@@ -1,0 +1,14 @@
+{
+  "benchmark_name": "Synthetic Collaborative Filtering Benchmark",
+  "description": "Statistically simulated user ratings matrix generated deterministically for testing Surprise SVD on authentic Bengaluru restaurants.",
+  "random_seed": 42,
+  "total_simulated_users": 600,
+  "total_simulated_ratings": 11920,
+  "train_ratings_count": 9777,
+  "test_ratings_count": 2143,
+  "ratings_scale": "1.0 to 5.0",
+  "avg_ratings_per_user": 19.87,
+  "avg_ratings_per_restaurant": 0.96,
+  "sparsity_percentage": "99.8408%",
+  "warning": "This interaction dataset is explicitly SYNTHETIC. Model evaluation metrics on this benchmark validate recommendation architecture mechanics and must not be cited as real customer behavior."
+}

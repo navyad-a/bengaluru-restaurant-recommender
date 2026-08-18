@@ -1,0 +1,48 @@
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables (Secrets)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Databases
+*.sqlite3
+*.db
+
+# Data & Raw Files (Keep processed datasets and .gitkeeps)
+data/raw/*
+!data/raw/.gitkeep
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# IDE & OS Specific
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.bak
+Thumbs.db
+
