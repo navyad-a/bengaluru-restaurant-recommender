@@ -1,0 +1,17 @@
+{
+  "model_name": "Bengaluru Hybrid Restaurant Recommendation Engine",
+  "version": "1.0.0",
+  "timestamp": "2026-08-18T12:11:43.057926+00:00",
+  "default_weights": {
+    "content": 0.4,
+    "collaborative": 0.2,
+    "location": 0.15,
+    "quality": 0.25
+  },
+  "location_decay_tau_km": 3.0,
+  "bayesian_quality_m_threshold": 50.0,
+  "catalog_mean_rating_c": 3.626,
+  "candidate_pool_multiplier": 5,
+  "candidate_pool_min": 80,
+  "disclaimer": "The recommendation engine combines authentic restaurant catalog content, Bayesian quality shrinkage, and locality-level spatial decay with a synthetic collaborative filtering benchmark."
+}

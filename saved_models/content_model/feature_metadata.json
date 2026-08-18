@@ -1,0 +1,16 @@
+{
+  "model_type": "TF-IDF Metadata Content Model",
+  "num_restaurants": 12481,
+  "vocabulary_size": 1673,
+  "matrix_shape": [
+    12481,
+    1673
+  ],
+  "matrix_format": "scipy.sparse.csr_matrix",
+  "min_df": 2,
+  "sublinear_tf": true,
+  "ngram_range": [
+    1,
+    1
+  ]
+}

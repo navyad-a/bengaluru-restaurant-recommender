@@ -1,0 +1,23 @@
+{
+  "phase": 10,
+  "model_name": "Maximal Marginal Relevance (MMR) Diversification Engine",
+  "default_lambda": 0.75,
+  "similarity_metric": "sparse_tfidf_cosine",
+  "tfidf_artifact_ref": "saved_models/content_model/tfidf_matrix.joblib",
+  "soft_redundancy_controls": {
+    "max_same_chain_in_top_k": 2,
+    "near_duplicate_similarity_threshold": 0.95,
+    "redundancy_evaluation_threshold": 0.8
+  },
+  "deterministic_tie_breaking": [
+    "mmr_score DESC",
+    "relevance_score DESC",
+    "hybrid_score DESC",
+    "quality_score DESC",
+    "review_count DESC",
+    "rating DESC",
+    "restaurant_id ASC"
+  ],
+  "catalog_size": 12481,
+  "version": "1.0.0"
+}

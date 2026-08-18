@@ -1,0 +1,58 @@
+{
+  "model_type": "Surprise SVD Matrix Factorization",
+  "benchmark_type": "Synthetic Collaborative Filtering Benchmark",
+  "dataset_notice": "The training ratings are explicitly SYNTHETIC. Model evaluation metrics on this benchmark demonstrate algorithm mechanics and must NOT be cited as real customer behavior.",
+  "hyperparameters": {
+    "n_factors": 50,
+    "n_epochs": 30,
+    "lr_all": 0.005,
+    "reg_all": 0.1,
+    "random_state": 42
+  },
+  "num_known_users": 600,
+  "num_known_restaurants": 6675,
+  "global_mean_rating": 4.1481,
+  "dataset_statistics": {
+    "is_valid": true,
+    "total_users": 600,
+    "authentic_catalog_restaurants": 12481,
+    "represented_restaurants": 7540,
+    "train_ratings_count": 9777,
+    "test_ratings_count": 2143,
+    "total_ratings_count": 11920,
+    "avg_train_ratings_per_user": 16.3,
+    "min_train_ratings_per_user": 6,
+    "max_train_ratings_per_user": 28,
+    "avg_train_ratings_per_restaurant": 1.46,
+    "matrix_density_percent": "0.1592%",
+    "matrix_sparsity_percent": "99.8408%",
+    "train_rating_mean": 4.148,
+    "train_rating_std": 0.645,
+    "test_rating_mean": 4.164,
+    "test_rating_std": 0.639
+  },
+  "best_hyperparameters": {
+    "n_factors": 50,
+    "n_epochs": 30,
+    "reg_all": 0.1,
+    "lr_all": 0.005,
+    "random_state": 42
+  },
+  "validation_rmse": 0.6304,
+  "test_error_metrics": {
+    "rmse": 0.6171,
+    "mae": 0.5081,
+    "num_evaluations": 2143
+  },
+  "test_ranking_metrics": {
+    "precision_at_5": 0.0003,
+    "recall_at_5": 0.0006,
+    "hit_rate_at_5": 0.0017,
+    "precision_at_10": 0.0003,
+    "recall_at_10": 0.001,
+    "hit_rate_at_10": 0.0033,
+    "num_evaluated_users": 598
+  },
+  "training_time_seconds": 0.0733,
+  "cv_search_time_seconds": 6.5131
+}
